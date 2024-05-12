@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-09 13:48:06.533536",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "log_out",
+  "news_page",
+  "column_break_ummy",
+  "drive",
+  "gameplan"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_ummy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "news_page",
+   "fieldtype": "Data",
+   "label": "News Page"
+  },
+  {
+   "fieldname": "drive",
+   "fieldtype": "Data",
+   "label": "Drive"
+  },
+  {
+   "fieldname": "gameplan",
+   "fieldtype": "Data",
+   "label": "Gameplan"
+  },
+  {
+   "fieldname": "log_out",
+   "fieldtype": "Data",
+   "label": "Log out"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-09 15:44:06.833336",
+ "modified_by": "Administrator",
+ "module": "Masar EALB",
+ "name": "URL Bar Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
